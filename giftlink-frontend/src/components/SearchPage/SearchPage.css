@@ -1,0 +1,46 @@
+.search-page {
+    max-width: 1100px;
+}
+
+.search-input:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+.search-button {
+    height: 38px;
+}
+
+.age-slider {
+    accent-color: #0d6efd;
+}
+
+.result-card {
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.result-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.card-img-placeholder {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ecef;
+    color: #6c757d;
+}
+
+.no-results-alert {
+    border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+    .search-controls {
+        flex-direction: column;
+    }
+}
