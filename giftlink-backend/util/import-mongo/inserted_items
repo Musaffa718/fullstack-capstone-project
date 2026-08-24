@@ -1,0 +1,6 @@
+PS D:\xampp\htdocs\Nastpp\giftlink-app\giftlink-backend\util\import-mongo> npm start
+
+> mongo-import@1.0.0 start
+> node import.js
+
+Inserted 16 gifts into the database.
