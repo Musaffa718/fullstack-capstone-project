@@ -1,0 +1,4 @@
+curl.exe -X POST "http://localhost:3060/api/auth/login" -H "Content-Type: application/json" --data-binary "@login-data.json"
+
+OUTPUT:
+{"authtoken":"[REDACTED]","userName":"Test","userEmail":"testuser14@example.com"}
