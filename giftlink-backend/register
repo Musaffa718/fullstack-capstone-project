@@ -1,0 +1,4 @@
+curl.exe -X POST "http://localhost:3060/api/auth/register" -H "Content-Type: application/json" --data-binary "@register-data.json"
+
+OUTPUT:
+{"authtoken":"[REDACTED]","email":"testuser14@example.com","firstName":"Test","lastName":"User"}
