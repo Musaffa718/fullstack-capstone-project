@@ -1,0 +1,4 @@
+﻿curl.exe http://localhost:3060/api/gifts/1
+
+OUTPUT:
+{"_id":"6a8c9da8da2adbdaa3d203b5","id":"1","name":"Wooden Toy Train Set","category":"Toys","condition":"Like New","age_days":120,"age_years":0,"description":"A colorful wooden train set, gently used, great for toddlers.","date_added":1690000000,"image":"/images/wooden_toy_train_set.jpg","comments":[]}
